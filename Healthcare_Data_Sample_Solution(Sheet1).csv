@@ -1,0 +1,28 @@
+Field_No,Field_Name,Field_Value,Description,Data Source,Pivot Table,
+8,Procedure_Code,71046,Billing code for chest X-ray,Claims Data,Row Labels,Count of Data Source
+12,Patient_Copay,$100,Out-of-pocket payment,Claims Data,Claims Data,6
+14,Condition_Onset,2010,Onset year for condition,Claims Data,Clinical Trial Data,4
+9,Procedure_Cost,$280,Amount billed,Claims Data,Electronic Health Record (EHR),7
+10,Visit_Charge,$100,Clinic visit cost,Claims Data,Registry Data,2
+11,Insurance_Paid,$330,Total reimbursed,Claims Data,Grand Total,19
+18,Intervention,Inhaled corticosteroid 200 mcg,Therapy being tested,Clinical Trial Data,,
+16,Trial_ID,CT-99821,Research study identifier,Clinical Trial Data,,
+17,Eligibility_Criteria,"Age 40–70, chronic cough > 6 weeks",Trial inclusion rules,Clinical Trial Data,,
+19,Outcome_Measured,FEV1 improvement at 12 weeks,Trial outcome metric,Clinical Trial Data,,
+1,Patient_Name,John Smith,Patient demographic,Electronic Health Record (EHR),,
+4,Diagnosis,Acute bronchitis,Entered by clinician,Electronic Health Record (EHR),,
+2,Date_of_Birth,22/04/1978,Patient date of birth,Electronic Health Record (EHR),,
+3,Symptoms,"Persistent cough, fatigue",Clinical documentation,Electronic Health Record (EHR),,
+5,Vitals,"Temp 99.8°F, HR 88",Nurse assessment,Electronic Health Record (EHR),,
+7,Medication_Prescribed,Azithromycin,Prescription information,Electronic Health Record (EHR),,
+6,Test_Ordered,Chest X-Ray,Test ordered during visit,Electronic Health Record (EHR),,
+13,Registry_Type,Respiratory Disease Registry,Disease-focused registry,Registry Data,,
+15,Last_Registry_Update,12/04/2024,Most recent registry entry,Registry Data,,
+,,,,,,
+,,,,,,
+Match each goal to the most appropriate data source,,,,,,
+Goal,,Data source,,,,
+"Review John’s diagnoses, medications, and test results from the visit",,,,,,
+Analyze the cost of John’s visit and determine what insurance was billed,,,,,,
+Track John’s chronic conditions over time to support population-health management,,,,,,
+Check what procedures were performed during the visit and why they were ordered,,,,,,
